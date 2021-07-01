@@ -59,7 +59,7 @@
       }
       $isotope.isotope({ filter: type });
     };
-
+    
     $isotope.isotope({
       itemSelector: ".isotope-item",
       layoutMode: "masonry"

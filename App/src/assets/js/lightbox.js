@@ -477,6 +477,10 @@
     $(document).off('.keyboard');
   };
 
+  function SubmitClik(){
+    alert("try again")
+  };
+
   Lightbox.prototype.keyboardAction = function(event) {
     var KEYCODE_ESC        = 27;
     var KEYCODE_LEFTARROW  = 37;
